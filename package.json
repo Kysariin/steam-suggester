@@ -1,0 +1,39 @@
+{
+  "name": "steam-suggester",
+  "version": "0.1.0",
+  "description": "Pick something to play from the Steam games you already own, by mood. Works with or without AI (MCP server for Claude, Cursor and others).",
+  "keywords": [
+    "steam",
+    "games",
+    "recommendations",
+    "mcp",
+    "mcp-server",
+    "backlog",
+    "cli"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "steam-suggester": "bin/steam-suggester.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "setup": "node bin/steam-suggester.js setup",
+    "pick": "node bin/steam-suggester.js pick",
+    "sync": "node bin/steam-suggester.js sync",
+    "serve": "node bin/steam-suggester.js serve"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "author": "Kysariin"
+}
