@@ -102,6 +102,6 @@ This refreshes playtime and fetches tags for newly bought games. It's safe to st
 ## Developing
 
 ```bash
-git clone <repo> && cd steamsuggester && npm install
+git clone https://github.com/Kysariin/steam-suggester && cd steam-suggester && npm install
 node bin/steam-suggester.js setup
 ```

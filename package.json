@@ -35,5 +35,13 @@
     "@modelcontextprotocol/sdk": "^1.32.2",
     "zod": "^4.6.7"
   },
-  "author": "Kysariin"
+  "author": "Kysariin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kysariin/steam-suggester.git"
+  },
+  "homepage": "https://github.com/Kysariin/steam-suggester#readme",
+  "bugs": {
+    "url": "https://github.com/Kysariin/steam-suggester/issues"
+  }
 }
